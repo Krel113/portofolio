@@ -2,7 +2,6 @@
   --HeaderHeight: 10vh;
   --minHeaderHeight: 60px;
   --offsetFromHeader: calc(var(--HeaderHeight) * 1.25);
-  --navbtnFont: 18px;
   --posX: 0px;
   --posY: 0px;
   --fadeDuration: 0.5s;
@@ -12,11 +11,15 @@
   --const20px: 20px;
   --const10px: 10px;
   --const5px: 5px;
-  --appbgColor: #212121;
-  --sectionbg: #ffffff12;
-  --btnbgHover: rgb(175, 175, 175);;
-  --btnbgClick:rgb(253, 253, 253);
-  --navbarColor: #191919;
+  --appbgColor: #1B2431;
+  --sectionbg: #232F3E;
+  --cardBgColor:#2D3C50;
+  --btnbgHover: #99E3DB;
+  --btnBrand: #33CBB8;
+  --btnbgClick:#CCF0ED;
+  --navbarColor: #121826;
+  --navBtnFontSize: 18px;
+  --navBtnFontColor: #A7B2B2;
   --shadowBox: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
@@ -105,7 +108,6 @@ img {
   position: fixed;
   background-color: grey;
   box-shadow: 0px 5px 15px 0px black;
-  color: wheat;
   height: var(--HeaderHeight);
   min-height: 60px;
   z-index: 2;
@@ -121,15 +123,16 @@ img {
   text-decoration: none;
   background-color: transparent;
   height: 100%;
+  color: var(--navBtnFontColor);
   min-height: var(--minHeaderHeight);
   border: 0;
-  color: wheat;
   min-width: 120px;
   padding: 5px;
 }
 
 .navbutton:hover, .btn-dropdown:hover{
   background-color: var(--btnbgHover);
+  color: white;
 }
 
 .navbutton:active, .btn-dropdown:active {
@@ -137,7 +140,7 @@ img {
 }
 
 .navbrand button {
-  background-color: black;
+  background-color: var(--btnBrand);
   color: white;
   min-width: 250px;
 }
@@ -328,7 +331,7 @@ img {
   height: 70px;
   padding: 2.5%;
   background-color: black;
-  color: wheat;
+  color: #EAF4F4;
   font-size: 1.3em;
 }
 
@@ -364,7 +367,7 @@ img {
 .product-info-panel {
   column-gap: var(--const20px);
   justify-items: center;
-  background-color: rgb(46, 45, 45);
+  background-color: var(--cardBgColor);
   padding: var(--const20px);
   box-shadow: 0 0 10px 0px black
 }
