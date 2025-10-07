@@ -241,7 +241,7 @@ let protoLight = {
 let videoGames = {
   title: "Video games",
   id: "videogames",
-  data: [topino, beerCook, bluePeace, handleTheCrate, fallenStar, clockTower, marryMe],
+  data: [topino, beerCook, bluePeace, handleTheCrate, fallenStar, clockTower, marryMe, protoLight],
 };
 
 // BOOKS
