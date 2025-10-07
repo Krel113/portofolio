@@ -62,7 +62,7 @@ export default function ProductInfo({content, productData, mediaScreenMax, retur
         <br/>
         <div className="btncontainer flex">
           {productData.producturl == undefined ? undefined : (
-            <a href={productData.producturl} target="_blank">
+            <a hidden={productData.producturl === null} href={productData.producturl} target="_blank">
               <button className="productbtn okbtn">{content.btnLabel}</button>
             </a>
           )}

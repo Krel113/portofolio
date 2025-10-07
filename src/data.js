@@ -235,7 +235,7 @@ let protoLight = {
       "grâce aux compétences trouvées en chemin et en jouant avec la perspective."
   },
   videosrc: "https://www.youtube.com/embed/VTIM-fkRtTM?si=EjKC7HjuSjxcsrR5",
-  producturl: ''
+  producturl: null
 };
 
 let videoGames = {
