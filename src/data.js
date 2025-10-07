@@ -19,6 +19,34 @@ export let intro = {
 };
 
 // VIDEO GAMES
+let topino = {
+  title: "Topino",
+  imgurl: "/games/topino0.jpg",
+  small_imgsurl: [
+    "/games/topino1.jpg",
+    "/games/topino2.jpg",
+    "/games/topino3.jpg",
+  ],
+  year: "2024",
+  engine: "Godot",
+  genre: "arcade",
+  type: "platformer",
+  team: "1 programer, 1 designer",
+  role: "UI programer, gameplay programer",
+  description: {
+    en:
+      "Created in 48 hours during GMTK 2024 on the theme 'built to scale'. Take control of a little mouse and go and retrieve the key that opens the door to the next level." +
+      "Topino will have to adjust his size to the dimensions of the key to carry it. " +
+      "Get bigger with cheese or slimmer with pills, but be careful not to overdose!",
+    fr:
+      "Ralisé en 48h lors de la GMTK 2024 sur le thème 'built to scale'. Prenez le contrôle d'une petite souris partez récupérer la clé qui ouvre la porte du prochaine niveau. " +
+      "Topino devra ajuster sa taille aux dimension de la clé pour pouvoir la transporter. "+
+      "Grossiez grâce au fromage ou maigrissez avec les pillules,  mais attention à l'overdose! "
+  },
+  videosrc: "https://www.youtube.com/embed/tuezhPknhMc?si=F9603BYTGKX_N0cN",
+  producturl: "https://krel113.itch.io/topino",
+};
+
 let beerCook = {
   title: "Beer cook",
   imgurl: "/games/beer_cook0.jpg",
@@ -40,7 +68,7 @@ let beerCook = {
       "Too little beer, and the chef's creativity wanes, resulting in a poorly executed dish. Too much beer, " +
       "and the chef's coordination and decision-making skills are impaired, leading to mistakes and a lower score. ",
     fr:
-      "Ralisé en 48h lors de la la Nordic Game Jam 2023. Incarnez un chef cuisto déluré dont la créativité est proportionnelle à la quantité de bière qu'il consomme. " +
+      "Ralisé en 48h lors de la Nordic Game Jam 2023. Incarnez un chef cuisto déluré dont la créativité est proportionnelle à la quantité de bière qu'il consomme. " +
       "Pas assez de boisson doré, et le chef manquera cruellement de motivation. Trop de houblon, et le cuisinier deviendra incontollable. " +
       "A vous de trouver le juste milieu pour gagner un maximum de points. ",
   },
@@ -182,10 +210,38 @@ let marryMe = {
   producturl: "https://krel113.itch.io/marry-me",
 };
 
+let protoLight = {
+  title: "ProtoLight",
+  imgurl: "/games/protolight0.jpg",
+  small_imgsurl: [
+    "/games/protolight1.jpg",
+    "/games/protolight2.jpg",
+    "/games/protolight3.jpg",
+  ],
+  year: "2021",
+  engine: "Unity",
+  genre: "puzzle game",
+  type: "surreal explorer",
+  team: "1 programmer",
+  role: "gameplay programer, artist, game designer",
+  description: {
+    en:
+      "Very first project made on Unity, inspired by the game 'Antichamber'. "+
+      "Explorer a colorful world where shade doesn't exist, and make your way through various rooms "+
+      "by acquiring new skills and playing with the perspective. ",
+    fr:
+      "Tout premier projet réalisé sur Unity, inspiré du jeu 'Antichamber'. " +
+      "Explorez un monde haut en couleur où l'ombre n'existe pas, et frayez-vous un chemin à travers les différentes pièces " +
+      "grâce aux compétences trouvées en chemin et en jouant avec la perspective."
+  },
+  videosrc: "https://www.youtube.com/embed/VTIM-fkRtTM?si=EjKC7HjuSjxcsrR5",
+  producturl: ''
+};
+
 let videoGames = {
   title: "Video games",
   id: "videogames",
-  data: [beerCook, bluePeace, handleTheCrate, fallenStar, clockTower, marryMe],
+  data: [topino, beerCook, bluePeace, handleTheCrate, fallenStar, clockTower, marryMe],
 };
 
 // BOOKS
